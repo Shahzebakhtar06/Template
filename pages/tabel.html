@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/tabel.css">
+    <title>copilot</title>
+</head>
+<body>
+    <div id="body-wrapper">
+        <div class="main-header">
+            <div id="header">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col p-0 fit-width">
+                            <div class="logo">
+                                <img src="../img/logo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col p-0">
+                            <div class="notification-icon">
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            <i class="far fa-envelope"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="far fa-bell"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="far fa-flag"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col fit-width p-0">
+                            <div class="user-detail">
+                                <a href="">
+                                    <img src="../img/user.jpeg" alt="user image">
+                                    <span>Keaton Hettinger</span>
+                                    <ul class="user-drop-menu">
+                                        <li>
+                                            <p>
+                                                <span>Sanford Willms</span>
+                                                <small>Customer Mobility Coordinator</small>
+                                                <small>Future Branding Executive</small>
+                                            </p>
+                                        </li>
+                                        <li class="user-footer">
+                                            <div class="log-out-btn">
+                                                <i class="fas fa-sign-out-alt"></i>
+                                                <span>Logout</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body-section">
+            <div id="side-bar">
+                <div class="container-fluid p-0">
+                    <div class="side-bar">
+                        <div class="user-box">
+                            <div class="user-img">
+                                <a href="">
+                                    <img src="../img/user.jpeg" alt="user-img">
+                                </a>
+                            </div>
+                            <div class="user-name">
+                                <p>user-name
+                                </p>
+                                <a href="" class="status">online</a>
+    
+                            </div>
+                        </div>
+                        <div class="search-box">
+                            <span class="srch-icon">
+                                <a href=""><i class="fas fa-search"></i></a>
+                            </span>
+                            <input type="search">
+                        </div>
+                        <div class="page-box">
+                            <ul>
+                                <h6>Tools</h6>
+                                <li>
+                                    <i class="far fa-desktop"></i>
+                                    <a href="/index.html">Dashbord</a>
+                                </li>
+                                <li class="active">
+                                    <i class="far fa-table"></i>
+                                    <a href="/pages/tabel.html">Tables</a>
+                                </li>
+                                <h6>Me</h6>
+                                <li >
+                                    <i class="far fa-tasks"></i>
+                                    <a href="/pages/task.html">Task</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-cog"></i>
+                                    <a href="">Setting</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-folder"></i>
+                                    <a href="">Files</a>
+                                </li>
+                                <h6>Logs</h6>
+                                <li>
+                                    <i class="far fa-book"></i>
+                                    <a href="">Access</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-hdd"></i>
+                                    <a href="">Server</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-heart"></i>
+                                    <a href="">Repos</a>
+                                </li>
+                                <h6>Page</h6>
+                                <li>
+                                    <i class="far fa-circle  yellow-circle"></i>
+                                    <a href="">Login</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-circle red-circle"></i>
+                                    <a href="">404</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div id="nav-bar">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <div class="nav-title">
+                                    <h1>TABLE
+                                        <small>Simple and advance table in CoPilot</small>
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="col fit-width">
+                                <ul class="page-detail">
+                                    <li class="parent-page">
+                                        <i class="fas fa-home"></i>
+                                        <a href="">home</a>
+                                        <i class="fas fa-angle-right"></i>
+                                    </li>
+                                    <li class="child-page">
+                                        <a href="">TABLES</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div id="simple-table">
+                    <div class="container-fluid">
+                        <div class="table-title">
+                            <h1>Simple</h1>
+                        </div>
+                        <div class="table-contant">
+                            <div class="table-header">
+                                <h3>Striped Full Width Table</h3>
+                            </div>
+                            <table class="simple-table">
+                                <thead>
+                                    <tr>
+                                        <th id="number">#</th>
+                                        <th>Task</th>
+                                        <th>progress</th>
+                                        <th id="label">label</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1.</td>
+                                        <td>Update software</td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="software-current-progress"></div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="software-percentage">
+                                                55%
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.</td>
+                                        <td>
+                                            Clean database
+                                        </td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="database-current-progress"></div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="database-percentage">
+                                                70%
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3.</td>
+                                        <td>
+                                            Cron job running
+                                        </td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="job-current-progress"></div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="job-percentage">
+                                                30%
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>4.</td>
+                                        <td>Fix and squish bugs</td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="bugs-current-progress"></div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="bugs-percentage">
+                                                90%
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div id="data-table">
+                    <div class="container-fluid">
+                        <div class="table-title">
+                            <h1>Data table</h1>
+                        </div>
+                        <div class="table-contant">
+                            <div class="table-header">
+                                <h3>Data Table With Full Features</h3>
+                            </div>
+                            <div class="entries-menu">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="entries-drop-menu">
+                                            <span>show</span>
+                                            <select name="" id="">
+                                                <option value="">20</option>
+                                                <option value="">50</option>
+                                                <option value="">100</option>
+                                            </select>
+                                            <span>entries</span>
+                                        </div>
+                                    </div>
+                                    <div class="col fit-width">
+                                        <div class="data-table-search-bar">
+                                            <span>search :</span>
+                                            <span>
+                                                <input type="search"id="myinput">
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <table>
+                              
+                                <thead>
+                                    <tr style="background-color: #fff;">
+                                        <th>rendering engine</th>
+                                        <th>Browser</th>
+                                        <th>platform(s)</th>
+                                        <th>Engine version</th>
+                                        <th>css grade</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="my-table">
+                                    <tr>
+                                        <td>Gecko</td>
+                                        <td>Firefox 1.0</td>
+                                        <td>Win 98+ / OSX.2+</td>
+                                        <td>1.7</td>
+                                        <td>A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>html</td>
+                                        <td>chrome 1.0</td>
+                                        <td>xp</td>
+                                        <td>hell</td>
+                                        <td>A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>java</td>
+                                        <td>viualstudio</td>
+                                        <td>Win 10</td>
+                                        <td>by</td>
+                                        <td>b</td>
+                                    </tr>
+                                    <tr>
+                                        <td>css</td>
+                                        <td>edge</td>
+                                        <td>Win2000</td>
+                                        <td>how</td>
+                                        <td>c</td>
+                                    </tr>
+                                    <tr>
+                                        <td>JQuery</td>
+                                        <td>interner</td>
+                                        <td>linex</td>
+                                        <td>best</td>
+                                        <td>d</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr style="background-color: #fff;">
+                                        <th>rendering engine</th>
+                                        <th>Browser</th>
+                                        <th>platform(s)</th>
+                                        <th>Engine version</th>
+                                        <th>css grade</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            <div class="data-table-footer">
+                                <div class="row">
+                                    <div class="col entries">
+                                       <span> Showing 1 to 10 of 11 entries</span>
+                                    </div>
+                                    <div class="col fit-width">
+                                        <div class="pages">
+                                            <span>previous</span>
+                                            <span>1</span>
+                                            <span>2</span>
+                                            <span>Next</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="container-fluid">
+                <div class="footer">
+                    <p><b>copyright</b> <span><i class="far fa-copyright"></i></span><b> 2022</b>  <span><a href="">copilot</a></span>.
+                    All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js-files/jquery file/jquery-3.6.0.min.js"></script>
+    <script src="../js-files/script.js"></script> 
+
+</body>
+</html>

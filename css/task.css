@@ -1,0 +1,61 @@
+/* time line setion start here  */
+.time-line{
+    margin: 40px;
+    padding: 0%;
+    list-style: none;
+}
+.time-line li{
+    margin: 15px 0px;
+    color: #444;
+}
+.time-line::before{
+    content: "";
+    display: block;
+    background-color: #ddd;
+    width: 3px;
+    height: auto;
+    position: absolute;
+    left: 290px;
+    bottom: 0px;
+    top: 0;
+    margin: 227px 0px;
+    margin-bottom: 80px;
+}
+.time-line-body-wrapper{
+    background-color: #fff;
+    padding: 10px;
+}
+
+.time-line-header{
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #efefef;
+}
+.time-line-header h6{
+    margin: 0%;
+}
+.rm-btn a{
+    background: rgb(130 130 197);
+    border-radius: 5px;
+}
+.rm-btn{
+    margin-top: 20px;
+
+}
+.time-line i{
+    padding: 10px;
+    font-size: 15px;
+}
+.novel-icon{
+    background-color: rgb(75, 75, 244);
+    border-radius: 50px;
+    color: #fff;
+}.friend-request-icon{
+    background-color: rgb(232, 157, 27);
+    border-radius: 50px;
+    color: #fff;
+}.youtube-icon{
+    background-color: rgb(98, 134, 216);
+    border-radius: 50px;
+    color: #fff;
+}

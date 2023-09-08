@@ -1,0 +1,171 @@
+
+/* body-contant start here  */
+
+.body-content{
+    margin-left: 230px;
+    background-color: rgb(236, 240, 245);
+    min-height: 100%;
+}
+#nav-bar{
+    padding: 15px 15px 0 15px;
+}
+.nav-title{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    
+}
+.nav-title >h1{
+    font-size: 23px;
+}
+.nav-title >h1 >small{
+    color: rgb(119, 119, 119);
+    font-size: 15px;
+}
+.page-detail{
+    display: flex;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+}
+.page-detail li a{
+    color: #000;
+    font-size: 14px;
+}
+.page-detail :last-child{
+    color: #6e777b;
+}
+/* banner section start here  */
+#banner{
+    padding: 15px;
+}
+.banner-box i{
+    font-size: 45px;
+    padding: 0px;
+    padding: 23px 17px;
+    color:#fff ;
+}
+.box-contant{
+    background-color: #fff;
+    height: 100%;
+    text-align: center;
+    padding: 5px 10px;
+
+}
+.parcentage{
+    font-weight: 900;
+}
+.cpu-icon{
+  background-color: rgb(37, 150, 221);
+  margin-left: 10px;
+}   
+.like-icon{
+    background-color: orangered;
+    margin-left: 20px;
+}
+.sale-icon{
+    background-color: rgb(35, 137, 35);
+    margin-left: 20px;
+
+}
+.member-icon{
+    background-color: orange;
+    margin-left: 20px;
+
+}
+/* main container section start here  */
+.chart-bar img{
+    width: 100%;
+}
+.chart-bar-footer p{
+    text-align: center;
+    font-size: smaller;
+    background-color: #fff;
+    border-top: 0.1px solid #d2d6de;
+}
+/* footer-side-bar star here  */
+#footer-side-bar i{
+    font-size: 45px;
+    padding: 0px;
+    padding: 23px 17px;
+    color:#fff ;
+}
+.inventory-icon{
+    background-color:#c37d0e ;
+    margin-left: 20px;
+}
+.inventory-contant{
+    background-color:#f39c12 ;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+
+
+}
+.mention-icon{
+    background-color: #008548;
+    margin-left: 20px;
+
+}
+.mention-contant{
+    background-color: #00a65a;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+
+}
+.download-contant{
+    background-color: #dd4b39;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+
+
+}
+.download-icon{
+background-color: #b13c2e;
+margin-left: 20px;
+
+}
+.direct-message-icon{
+    background-color: #009abf;
+    margin-left: 20px;
+
+}
+.direct-message-contant{
+    background-color: #00c0ef;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+   
+
+}
+.progress{
+    background-color: rgba(8, 5, 1,0.3);
+    height: 2px;
+}
+.current-progress{
+    background-color: #fff;
+}
+.progress-description{
+    padding-top: 10px;
+}
+/* footer section start here  */
+
+#footer{
+    background-color: #fff;
+    border-top: 1px solid #d2d6de;
+    margin-left: 230px;
+}
+#footer  p{
+    margin: 0%;
+    padding: 10px;
+    font-size: small;
+}
+#footer a{
+    color: #00c0ef;
+    text-decoration: none;
+}
+#footer a:hover{
+    color: #56cfed;
+}

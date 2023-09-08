@@ -1,0 +1,135 @@
+
+/* simple section start here  */
+table{
+    width: 100%;
+}
+.table-title h1{
+    font-size: 28px;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+.table-header{
+    padding: 8px 0px;
+}
+table thead{
+    font-size: 15px;
+    background-color:  #e5e3e3;
+
+}
+#number{
+    width: 2px;
+
+}
+table th{
+    padding: 8px;
+}
+table td{
+    padding: 8px;
+}
+#label{
+    width: 40px;
+}
+.table-contant{
+    margin: 20px;
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid rgb(223, 219, 219);
+    border-top: 3px solid rgb(223, 219, 219) ;
+    font-size: small;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.table-header h3{
+    font-size: 18px;
+    padding: 0px 10px;
+}
+.progress{
+    width: 100%;
+    height: 8px;
+    background-color: rgb(200, 195, 195);
+}
+.software-current-progress{
+    background-color: red;
+    width: 55%;
+}
+.database-current-progress{
+    background-color: orange;
+    width: 70%;
+}
+.job-current-progress{
+    background-color:rgb(60, 121, 145);
+    width: 30%;
+}
+.bugs-current-progress{
+    background-color:green;
+    width: 90%;
+}
+.software-percentage{
+    background-color: red;
+    color: #fff;
+    border-radius:10px ;
+    padding: 1px 10px;
+    font-size: small;
+}
+.database-percentage{
+    background-color:orange;
+    color: #fff;
+    border-radius:10px ;
+    padding: 1px 10px;
+    font-size: small;
+}
+.job-percentage{
+    background-color: rgb(60, 121, 145);
+    color: #fff;
+    border-radius:10px ;
+    padding: 1px 10px;
+    font-size: small;
+}
+.bugs-percentage{
+    background-color: green;
+    color: #fff;
+    border-radius:10px ;
+    padding: 1px 10px;
+    font-size: small;
+}
+.entries-menu{
+    margin: 10px;
+}
+/* data table start here  */
+.data-table-search-bar input{
+    outline: none;
+    border: 1px solid #e5e3e3;
+    padding: 10px;
+    height: 30px;
+}
+.data-table-search-bar input:focus{
+    border: 1px solid blue;
+    
+}
+#data-table table tr:nth-of-type(odd){
+    background-color: #e5e3e3;
+}
+
+#simple-table table tr:nth-of-type(even){
+    background-color: #e5e3e3;
+}
+.pages{
+    margin: 10px 0px;
+}
+.pages span{
+    padding: 10px;
+    border: 1px solid #e5e3e3;
+    margin-left: -5px;
+    
+}
+.pages span:hover{
+    background-color: rgba(0, 0, 255, 0.685);
+
+}
+.data-table-footer{
+   margin-top: 5px;
+}
+.entries{
+    align-self: center;
+}
